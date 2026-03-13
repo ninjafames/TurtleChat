@@ -1,7 +1,7 @@
 # TurtleChat
 
-**Slow Twitch chat so you can actually read it!**
-TurtleChat is an Opera/Chrome extension that queues Twitch chat messages and releases tjem at a controlled speed. Perfect for popular streams where chat moves too fast to follow.
+**Slows Twitch chat so you can actually read it!**
+TurtleChat is an Opera/Chrome extension that queues Twitch chat messages and releases them at a controlled speed. Perfect for popular streams where chat moves too fast to follow.
 
 ## Features
 - Adjustable chat speed (1s to 60s per message)
