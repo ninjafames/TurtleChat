@@ -1,0 +1,13 @@
+{
+  "manifest_version": 1,
+  "name": "Turtle Chat ",
+  "version": "1.0",
+  "description": "Slows Twitch chat so messages appear at a readable speed.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.twitch.tv/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

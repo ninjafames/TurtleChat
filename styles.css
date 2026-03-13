@@ -1,0 +1,66 @@
+[data-a-target="chat-line-message"] {
+    transition: opacity 0.3s;
+}
+
+#slowChatBtn {
+    margin-left: 6px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#slowChatPopup {
+
+    position: fixed;
+    right: 320px;
+    bottom: 120px;
+
+    background: #18181b;
+    border: 1px solid #3a3a3d;
+
+    padding: 10px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    z-index: 999999;
+}
+
+.popupTitle{
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: white;
+}
+
+#slowChatPopup button{
+
+    background: #2a2a2d;
+    color: white;
+    border: none;
+
+    padding: 6px 10px;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+#slowChatPopup button:hover{
+    background: #9147ff;
+}
+
+.sliderLabel{
+    color:white;
+    margin-top:6px;
+}
+
+#speedSlider{
+    width:160px;
+}
+
+#speedValue{
+    color:#aaa;
+    font-size:12px;
+}
