@@ -18,6 +18,6 @@ TurtleChat is an Opera/Chrome extension that queues Twitch chat messages and rel
 
 ## Tech Stack 
 - Javascript
-- HTML / CSS
+- CSS
 - Chrome / Opera Extension API
 - Web APIs (DOM manipulation, MutationObserver)
